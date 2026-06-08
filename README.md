@@ -1,1 +1,44 @@
-# watch
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DREXXX</title>
+<style>
+body{
+    background:#111;
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    margin:0;
+    padding:50px;
+}
+h1{
+    font-size:50px;
+}
+a{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#00cc66;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:20px;
+}
+a:hover{
+    opacity:0.9;
+}
+</style>
+</head>
+<body>
+
+<h1>DREXXX</h1>
+<p>Bienvenido a mi página.</p>
+
+<a href="https://kick.com/TU_USUARIO_DE_KICK" target="_blank">
+Ver Transmisión
+</a>
+
+</body>
+</html>
