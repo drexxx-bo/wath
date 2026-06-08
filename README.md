@@ -36,7 +36,7 @@ a:hover{
 <h1>DREXXX</h1>
 <p>Bienvenido a mi página.</p>
 
-<a href="https://kick.com/TU_USUARIO_DE_KICK" target="_blank">
+<a href="https://kick.com/drexxx-bo" target="_blank">
 Ver Transmisión
 </a>
 
