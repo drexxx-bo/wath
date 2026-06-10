@@ -3,39 +3,94 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DREXXX</title>
+<title>DREXXX LIVE</title>
+
 <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    background:#111;
+    background:#0d0d0d;
     color:white;
     font-family:Arial, sans-serif;
     text-align:center;
-    margin:0;
-    padding:50px;
 }
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
 h1{
-    font-size:50px;
+    font-size:70px;
+    margin-bottom:10px;
+    letter-spacing:4px;
 }
-a{
-    display:inline-block;
-    margin-top:20px;
-    padding:15px 30px;
+
+.live{
+    color:#00ff66;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+p{
+    font-size:20px;
+    margin-bottom:30px;
+    max-width:600px;
+}
+
+.btn{
     background:#00cc66;
     color:white;
     text-decoration:none;
-    border-radius:8px;
-    font-size:20px;
+    padding:18px 40px;
+    border-radius:10px;
+    font-size:22px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.footer{
+    margin-top:40px;
+    opacity:0.7;
+    font-size:14px;
 }
 </style>
 </head>
+
 <body>
 
-<h1>DREXXX</h1>
-<p>Bienvenido a mi página.</p>
+<div class="hero">
 
-<a href="https://kick.com/drexxx-bo" target="_blank">
-Ver Transmisión
+<h1>DREXXX</h1>
+
+<div class="live">🔴 LIVE STREAMER</div>
+
+<p>
+Bienvenido a mi página oficial.
+Haz clic abajo para ver mis transmisiones en vivo.
+</p>
+
+<a class="btn" href="https://kick.com/drexxx-bo" target="_blank">
+🎮 VER TRANSMISIÓN
 </a>
+
+<div class="footer">
+drexxx.com
+</div>
+
+</div>
 
 </body>
 </html>
